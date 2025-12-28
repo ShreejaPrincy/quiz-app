@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #121212;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.screen {
+  display: none;
+  width: 90%;
+  max-width: 500px;
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.screen.active {
+  display: block;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 5px;
+  background: #4caf50;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+select {
+  padding: 8px;
+  margin-top: 10px;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #444;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+#progress {
+  height: 100%;
+  width: 0%;
+  background: #4caf50;
+  border-radius: 5px;
+}
+
+#answers-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.answer-btn {
+  background: #333;
+}
+
+.answer-btn.correct {
+  background: #4caf50;
+}
+
+.answer-btn.incorrect {
+  background: #f44336;
+}

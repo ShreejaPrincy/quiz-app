@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Quiz Time</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- START SCREEN -->
+  <div id="start-screen" class="screen active">
+    <h1>Quiz Time 🎯</h1>
+
+    <label>Select Difficulty:</label>
+    <select id="difficulty">
+      <option value="easy">Easy</option>
+      <option value="medium">Medium</option>
+      <option value="hard">Hard</option>
+    </select>
+
+    <button id="start-btn">Start Quiz</button>
+  </div>
+
+  <!-- QUIZ SCREEN -->
+  <div id="quiz-screen" class="screen">
+    <div class="top-bar">
+      <span>Question <span id="current-question">1</span>/<span id="total-questions">0</span></span>
+      <span>⏱ <span id="timer">10</span>s</span>
+      <span>Score: <span id="score">0</span></span>
+    </div>
+
+    <div class="progress-container">
+      <div id="progress"></div>
+    </div>
+
+    <h2 id="question-text"></h2>
+
+    <div id="answers-container"></div>
+  </div>
+
+  <!-- RESULT SCREEN -->
+  <div id="result-screen" class="screen">
+    <h2>Your Score</h2>
+    <p><span id="final-score">0</span> / <span id="max-score">0</span></p>
+
+    <p>High Score: <span id="high-score">0</span></p>
+    <p id="result-message"></p>
+
+    <button id="restart-btn">Restart</button>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "question": "What is the capital of France?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "London", "correct": false },
+      { "text": "Paris", "correct": true },
+      { "text": "Berlin", "correct": false },
+      { "text": "Madrid", "correct": false }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Who developed JavaScript?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Microsoft", "correct": false },
+      { "text": "Brendan Eich", "correct": true },
+      { "text": "Google", "correct": false },
+      { "text": "Oracle", "correct": false }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "What does CSS stand for?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Cascading Style Sheets", "correct": true },
+      { "text": "Creative Style System", "correct": false },
+      { "text": "Computer Style Sheets", "correct": false },
+      { "text": "Colorful Style Sheets", "correct": false }
+    ]
+  },
+  { 
+    "id":4,
+    "question": "What is the capital of France?",
+    "difficulty":"easy",
+    "answers": [
+      { "text": "London", "correct": false },
+      { "text": "Berlin", "correct": false },
+      { "text": "Paris", "correct": true },
+      { "text": "Madrid", "correct": false }
+    ]
+  },
+  { 
+    "id":5,
+    "question": "Which planet is known as the Red Planet?",
+    "difficulty":"easy",
+    "answers": [
+      { "text": "Venus", "correct": false },
+      { "text": "Mars", "correct": true },
+      { "text": "Jupiter", "correct": false },
+      { "text": "Saturn", "correct": false }
+    ]
+  },
+  { 
+    "id":6,
+    "question": "What is the largest ocean on Earth?",
+    "difficulty":"medium",
+    "answers": [
+      { "text": "Atlantic Ocean", "correct": false },
+      { "text": "Indian Ocean", "correct": false },
+      { "text": "Arctic Ocean", "correct": false },
+      { "text": "Pacific Ocean", "correct": true }
+    ]
+  },
+  {
+    "id":7,
+    "question": "Which of these is NOT a programming language?",
+    "difficulty":"easy",
+    "answers": [
+      { "text": "Java", "correct": false },
+      { "text": "Python", "correct": false },
+      { "text": "Banana", "correct": true },
+      { "text": "JavaScript", "correct": false }
+    ]
+  },
+  {
+    "id":8,
+    "question": "What is the chemical symbol for gold?",
+    "difficulty":"easy",
+    "answers": [
+      { "text": "Go", "correct": false },
+      { "text": "Gd", "correct": false },
+      { "text": "Au", "correct": true },
+      { "text": "Ag", "correct": false }
+    ]
+  },
+  {
+    "question": "What is HTML?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Markup Language", "correct": true },
+      { "text": "Programming Language", "correct": false },
+      { "text": "Database", "correct": false },
+      { "text": "Server", "correct": false }
+    ]
+  }
+]
